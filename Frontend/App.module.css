@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+.App {
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    color: white;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    gap: 0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

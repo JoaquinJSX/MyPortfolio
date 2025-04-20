@@ -1,0 +1,12 @@
+.NavBar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    right: 10px;
+    width: 100%;
+    z-index: 1000;
+}
