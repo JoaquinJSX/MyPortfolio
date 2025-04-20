@@ -1,12 +1,12 @@
 import Card from "./ProjectCard";
-import CSS from './../../dist/assets/CSS-BmHoKlFT.png';
+import CSS from './../Images/CSS.png';
 import HTML from './../Images/HTML.png';
 import JS from './../Images/JS.png';
-import React_png from './../../dist/assets/React-CrPTLroW.png';
-import TS from './../../dist/assets/TS-CFxE178t.png';
+import React_png from './../Images/React.png';
+import TS from './../Images/TS.png';
 import Node from './../Images/Node.png';
-import Python from './../../dist/assets/Python-B4CTgkwg.png';
-import FCA_image from './../../dist/assets/FCA_image-eob5HqkB.png';
+import Python from './../Images/Python.png';
+import FCA_image from './../Images/FCA_image.png';
 import styles from './Styles/Skills.module.css';
 
 

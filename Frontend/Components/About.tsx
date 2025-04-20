@@ -1,8 +1,8 @@
-import Me from './../../dist/assets/Me-BxnizIC6.jpeg';
-import GitHub from './../../dist/assets/GitHub-DkTr3Tul.png';
+import Me from './../Images/Me.jpeg';
+import GitHub from './../Images/GitHub.png';
 import Gmail from './../Images/Gmail.png';
-import LinkedIn from './../../dist/assets/Linkedin-BhBQbLly.png';
-import WSP from './../../dist/assets/WSP-JHBetHJS.png';
+import LinkedIn from './../Images/LinkedIn.png';
+import WSP from './../Images/WSP.png';
 import styles from './Styles/About.module.css';
 
 
