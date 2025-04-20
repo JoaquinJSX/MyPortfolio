@@ -1,7 +1,7 @@
 import Me from './../Images/Me.jpeg';
 import GitHub from './../Images/GitHub.png';
 import Gmail from './../Images/Gmail.png';
-import LinkedIn from './../Images/LinkedIn.png';
+import LinkedIn from './../Images/Linkedin.png';
 import WSP from './../Images/WSP.png';
 import styles from './Styles/About.module.css';
 
