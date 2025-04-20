@@ -10,7 +10,7 @@ interface Props {
 export default function Card({ name, image, tools, link }: Props) {
 
     return (
-        <div>
+        <div className={styles.ProjectCard}>
             <h3>
                 {/*Nombre del projecto*/}
                 {name}
