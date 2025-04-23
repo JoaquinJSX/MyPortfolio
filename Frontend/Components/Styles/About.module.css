@@ -41,18 +41,20 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .About {
         height: 90vh;
         margin-top: 100px;
     }
     .Header {
+        height: 250px;
         font-size: 0.8rem;
         width: 90%;
+        margin-top: 120px;
     }
     .Description {
         font-size: 0.9rem;
-        width: 90%;
+        width: 70vw;
     }
     .SocialMedia img {
         height: 35px;

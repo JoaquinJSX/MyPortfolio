@@ -16,8 +16,16 @@ export default function NavBar({ path, setPath }: Props) {
     return (
         <nav className={styles.NavBar}>
             {/*Barra de navegación (cambiar de about a Skills - Projects)*/}
-            <button onClick={() => changePath('about')}>Sobre mí</button>
-            <button onClick={() => changePath('skills')}>Mis habilidades</button>
+            <button className={path === 'about' ? styles.activeBtn : ''}
+                onClick={() => changePath('about')}
+            >
+                Sobre mí
+            </button>
+            <button className={path === 'skills' ? styles.activeBtn : ''}
+                onClick={() => changePath('skills')}
+            >
+                Mis habilidades
+            </button>
         </nav>
     );
 }
