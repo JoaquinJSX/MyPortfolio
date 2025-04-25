@@ -38,7 +38,7 @@ export default function About() {
                 <img height={100} src={Me} alt="" />
                 <h3>Joaquin Palacios Gomez</h3>
                 <hr />
-                <h3>Software Developer</h3>
+                <h3>Desarrollador de software</h3>
             </header>
             <section className={styles.Description}>
                 {/*Pequeña descripción sobre mí*/}

@@ -11,6 +11,7 @@
     z-index: 1000;
 }
 .NavBar button {
+    background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 85px;
     height: 38px;
@@ -18,7 +19,6 @@
     font-size: 0.85rem;
     border-radius: 5px;
     font-weight: 400;
-    background-color: rgb(34, 33, 33);
     color: white;
     box-shadow: 0 0 5px white;
     margin-inline: 2.5px;
@@ -29,7 +29,7 @@
     }
 }
 .NavBar .activeBtn {
-    background-color: black;
+    background-color: rgb(55, 55, 55);
     text-decoration: underline;
 }
 
