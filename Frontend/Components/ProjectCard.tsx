@@ -15,9 +15,12 @@ export default function Card({ name, image, tools, link }: Props) {
             <h3>
                 {/*Nombre del projecto*/}
                 <p>{name}</p>
-                <img className={styles.Enlace} src={Enlace} alt="Enlace image" onClick={() => window.open(link)}/>
+                <img className={styles.Enlace} src={Enlace} alt="Enlace image" onClick={() => window.open(link)} />
             </h3>
-            <img src={image} alt="ProjectImage" height={150} width={275}/> {/*Imagen del proyecto*/}
+            <div className={styles.projectImageContainer}>
+                {/*Imagen del proyecto*/}
+                <img src={image} alt="ProjectImage" height={150} width={275} />
+            </div>
             <section className={styles.projectTools}>
                 {/*Logo de cada herramienta usada en el proyecto*/}
                 {tools.map((tool, index) => (

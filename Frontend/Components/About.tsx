@@ -35,7 +35,7 @@ export default function About() {
         <div className={styles.About}>
             <header className={styles.Header}>
                 {/*Foto y ocupación*/}
-                <img height={100} src={Me} alt="" />
+                <img height={125} src={Me} alt="" />
                 <h3>Joaquin Palacios Gomez</h3>
                 <hr />
                 <h3>Desarrollador de software</h3>
