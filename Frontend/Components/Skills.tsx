@@ -6,6 +6,7 @@ import React_png from './../Images/React.png';
 import TS from './../Images/TS.png';
 import Python from './../Images/Python.png';
 import FCA_image from './../Images/FCA_image.png';
+import MYWAY_image from './../Images/MYWAY_image.png';
 import styles from './Styles/Skills.module.css';
 
 
@@ -19,6 +20,12 @@ export default function Skills() {
             image: FCA_image,
             tools: [React_png, TS, Python, CSS],
             link: "https://finantial-control-app.vercel.app/"
+        },
+        {
+            name: "MyWay App",
+            image: MYWAY_image,
+            tools: [React_png, TS, JS, CSS],
+            link: "https://myway-app.vercel.app/"
         }
     ]
 
