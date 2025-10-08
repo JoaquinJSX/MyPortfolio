@@ -9,6 +9,7 @@ import TS from './../Images/TS.png';
 import Python from './../Images/Python.png';
 import FCA_image from './../Images/FCA_image.png';
 import MYWAY_image from './../Images/MYWAY_image.png';
+import TurulasAI_image from './../Images/TurulasAI.png';
 
 const projects: ProjectItem[] = [
     {
@@ -21,6 +22,12 @@ const projects: ProjectItem[] = [
         name: "MyWay App",
         link: "https://myway-app.vercel.app/",
         image: MYWAY_image,
+        tools: [React, TS, JS, CSS],
+    },
+    {
+        name: "Turulas AI",
+        link: "https://turulas-ai-frontend.vercel.app/",
+        image: TurulasAI_image,
         tools: [React, TS, JS, CSS],
     }
 ];
